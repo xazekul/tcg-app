@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>黄黑魔法卡牌馆 | Harry Potter TCG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">黄黑魔法卡牌馆</div>
+    <nav>
+      <a href="#decks">套牌</a>
+      <a href="#arena">竞技场</a>
+      <a href="#events">活动</a>
+      <a href="#join">加入</a>
+    </nav>
+    <button class="cta ghost">立即登录</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">霍格沃茨官方授权 • 巫师对战</p>
+        <h1>收集、构筑、竞技<br>重温哈利波特的每一刻</h1>
+        <p class="lead">以黄黑相间的斯内普风格，打造魔法世界最具质感的 TCG 网站。探索学院特色套牌、限制赛季活动与全球排行榜，随时开启你的巫师对局。</p>
+        <div class="hero__actions">
+          <button class="cta primary">立即开局</button>
+          <button class="cta secondary">查看卡池</button>
+        </div>
+        <div class="hero__meta">
+          <div>
+            <span class="meta__value">350+</span>
+            <span class="meta__label">收藏级卡面</span>
+          </div>
+          <div>
+            <span class="meta__value">16</span>
+            <span class="meta__label">学院核心策略</span>
+          </div>
+          <div>
+            <span class="meta__value">24/7</span>
+            <span class="meta__label">跨区匹配对战</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__cards">
+        <div class="floating-card card--light">
+          <div class="card__title">光影守护</div>
+          <p class="card__text">使用黄黑护符延缓伤害，等待斯内普的剧毒反击。</p>
+          <span class="card__tag">防守反击</span>
+        </div>
+        <div class="floating-card card--dark">
+          <div class="card__title">夜行者</div>
+          <p class="card__text">潜伏于密室的隐秘套牌，利用潜行与诅咒瞬间破局。</p>
+          <span class="card__tag">控制</span>
+        </div>
+        <div class="floating-card card--gold">
+          <div class="card__title">金色飞贼</div>
+          <p class="card__text">极速抽滤与连锁法术，抢先锁定胜局。</p>
+          <span class="card__tag">速攻</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="decks" class="section decks">
+      <div class="section__header">
+        <p class="eyebrow">DECK TECH</p>
+        <h2>当季热门套牌</h2>
+        <p class="section__lead">从经典霍格沃茨学派到禁林奇遇，精选三套黄黑主题套牌，附带强度评级与核心卡组。</p>
+      </div>
+      <div class="deck-grid">
+        <article class="deck-card">
+          <header>
+            <span class="pill">初学者友好</span>
+            <span class="rating">强度 S</span>
+          </header>
+          <h3>斯内普的暗影课堂</h3>
+          <p>以药剂与诅咒控制场面，搭配黄黑守护石提供持续增益。后期靠稀有魔药一击制胜。</p>
+          <ul>
+            <li>核心卡：福灵剂、除你武器、守护石</li>
+            <li>节奏：慢速控制 / 反击</li>
+            <li>上手难度：★★☆</li>
+          </ul>
+          <button class="cta tertiary">查看细节</button>
+        </article>
+        <article class="deck-card">
+          <header>
+            <span class="pill pill--dark">竞技推荐</span>
+            <span class="rating">强度 A+</span>
+          </header>
+          <h3>黄黑飞行课</h3>
+          <p>以飞贼为核心的速攻套牌，通过快速抽牌与连锁法术压制对手，适合喜爱主动进攻的巫师。</p>
+          <ul>
+            <li>核心卡：金色飞贼、轻盈咒、三扫帚</li>
+            <li>节奏：快攻 / 高爆发</li>
+            <li>上手难度：★★★</li>
+          </ul>
+          <button class="cta tertiary">查看细节</button>
+        </article>
+        <article class="deck-card">
+          <header>
+            <span class="pill">收藏党必备</span>
+            <span class="rating">强度 A</span>
+          </header>
+          <h3>黄黑禁林探险</h3>
+          <p>召唤奇兽和守护符文逐步建立优势，搭配治愈系魔药保证续航，适合中速推进与场面运营。</p>
+          <ul>
+            <li>核心卡：鹰头马身有翼兽、复方汤剂、光影符文</li>
+            <li>节奏：中速 / 累积资源</li>
+            <li>上手难度：★☆</li>
+          </ul>
+          <button class="cta tertiary">查看细节</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="arena" class="section arena">
+      <div class="arena__badge">实时匹配</div>
+      <div class="arena__content">
+        <div>
+          <p class="eyebrow">MATCHMAKING</p>
+          <h2>黄黑竞技场</h2>
+          <p class="section__lead">自带巫师评分与赛季规则。无论是校园友谊赛还是全球天梯，一键匹配，随时开战。</p>
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="icon">⚡</div>
+              <div>
+                <h4>极速开局</h4>
+                <p>智能分区与低延迟服务器，平均匹配时间 &lt; 15 秒。</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="icon">🛡️</div>
+              <div>
+                <h4>公平守护</h4>
+                <p>外挂侦测与卡牌同步审计，保障每场对局真实可靠。</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="icon">📜</div>
+              <div>
+                <h4>赛季通行</h4>
+                <p>完成周常任务解锁限定卡背、守护徽章与魔药皮肤。</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero__actions">
+            <button class="cta primary">开始排位</button>
+            <button class="cta secondary">查看赛季规则</button>
+          </div>
+        </div>
+        <div class="arena__panel">
+          <div class="panel__header">
+            <span>实时排行榜</span>
+            <span class="pill">黄黑赛季</span>
+          </div>
+          <ul class="leaderboard">
+            <li><span>1. 雷文导师</span><span class="badge gold">3,240 分</span></li>
+            <li><span>2. 地下室守望者</span><span class="badge silver">3,120 分</span></li>
+            <li><span>3. 魔药发烧友</span><span class="badge bronze">3,050 分</span></li>
+            <li><span>4. 斯内普实习生</span><span>2,880 分</span></li>
+            <li><span>5. 黄黑飞贼手</span><span>2,750 分</span></li>
+          </ul>
+          <div class="panel__footer">
+            <p>赛季时间：2024.11 - 2025.01</p>
+            <button class="cta tertiary">查看完整榜单</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="section events">
+      <div class="section__header">
+        <p class="eyebrow">LIVE EVENTS</p>
+        <h2>社区活动 & 线下巡回</h2>
+        <p class="section__lead">以黄黑为主色的巡回赛与周末挑战，让每位巫师都能在舞台闪耀。</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div>
+            <p class="timeline__date">12 / 02 伦敦</p>
+            <h3>霍格沃茨杯 - 决斗大师邀请赛</h3>
+            <p>32 强双败制，冠军将获得限定卡背「黄黑涡流」。</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div>
+            <p class="timeline__date">12 / 10 线上</p>
+            <h3>禁林速攻冲刺夜</h3>
+            <p>两小时限时速攻赛，完成 7 连胜赢取「金色飞贼」异画。</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div>
+            <p class="timeline__date">12 / 24 霍格沃茨</p>
+            <h3>圣诞魔药工坊</h3>
+            <p>DIY 魔药卡面工作坊，附带校长特别讲座与卡组调优指导。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="join" class="section join">
+      <div class="join__panel">
+        <div>
+          <p class="eyebrow">COMMUNITY</p>
+          <h2>加入黄黑巫师军团</h2>
+          <p class="section__lead">获取最新补丁说明、卡面剧透与巫师学院课程。每周五晚直播卡组解析与职业选手访谈。</p>
+          <div class="chip-row">
+            <span class="chip">每周黄黑速递</span>
+            <span class="chip">魔药工坊教程</span>
+            <span class="chip">专属头像框</span>
+          </div>
+        </div>
+        <form class="join__form">
+          <label for="email">邮件订阅</label>
+          <div class="input-group">
+            <input id="email" type="email" placeholder="输入你的猫头鹰邮箱">
+            <button type="button" class="cta primary">发送猫头鹰</button>
+          </div>
+          <p class="tiny">订阅即同意接收来自黄黑魔法卡牌馆的最新赛事、补丁与会员福利。</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="logo">黄黑魔法卡牌馆</div>
+    <div class="footer__links">
+      <a href="#">隐私条款</a>
+      <a href="#">玩家守则</a>
+      <a href="#">品牌授权</a>
+    </div>
+    <div class="footer__social">
+      <span>关注我们：</span>
+      <a href="#">猫头鹰邮局</a>
+      <a href="#">霍格沃茨电台</a>
+      <a href="#">巫师日报</a>
+    </div>
+  </footer>
+</body>
+</html>
